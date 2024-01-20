@@ -1,0 +1,63 @@
+body {
+    background-image: radial-gradient(circle at 89% 50%, #eebe66 0, #d8b860 10%, #bfae5a 20%, #a6a255 30%, #8b924f 40%, #717f48 50%, #5a6c41 60%, #475c3b 70%, #394e35 80%, #2e4230 90%, #26392c 100%);
+    margin: 0;
+  }
+
+main {
+    width: 450px;
+    height: 550px;
+    margin: auto;
+    margin-top: 43px;
+    background-image: radial-gradient(circle at 89% 50%, #eebe66 0, #d8b860 10%, #bfae5a 20%, #a6a255 30%, #8b924f 40%, #717f48 50%, #5a6c41 60%, #475c3b 70%, #394e35 80%, #2e4230 90%, #26392c 100%);
+ 
+    border: solid black 1px;
+    border-radius: 20px;
+}
+header h1 {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+section .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form label{
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+.form input {
+    margin-top: 5px;
+    width: 250px;
+    border: none;
+    border: solid black 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color:transparent;
+    outline: none;
+}
+
+.botão button {
+      margin-top: 30px;
+      padding: 10px 190px;
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      background-color: black; 
+      color: white; 
+
+}
+.botão button:hover {
+    background-color: blueviolet;
+  }
